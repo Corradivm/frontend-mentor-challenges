@@ -10,9 +10,34 @@ function buttonSelect(n) {
 }
 
 function submit() {
-  const ratingValue = document.getElementsByClassName('active')[0].value;
+  const rating = document.getElementsByClassName('active')[0]
+  let ratingValue;
 
+  if (rating == undefined) {
+    animation()
+    return;
+  }
+ 
+  ratingValue = document.getElementsByClassName('active')[0].value;
+  
+  document.getElementById('warning-card').style.display = 'none';
   document.getElementById('rating-card').style.display = 'none';
   document.getElementById('thank-you-card').style.display = 'block';
   document.getElementById('output').innerHTML = `You selected ${ratingValue} out of 5`;
+}
+
+function animation() {
+  const card = document.getElementById('warning-card');
+
+  card.style.animation = "appear 0.5s ease-out";
+  card.style.top = "0px";
+
+  setTimeout(goback, 5000)
+}
+
+function goback() {
+  const card = document.getElementById('warning-card');
+
+  card.style.animation = "goback 1s ease-in";
+  card.style.top = "-50px";
 }
