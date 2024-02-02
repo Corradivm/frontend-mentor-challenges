@@ -12,6 +12,19 @@ body {
   background-color: hsl(216, 12%, 8%);
 }
 
+#warning-card {
+  background-color: hsl(0, 73%, 88%);
+  position: absolute;
+  top: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 50px;
+  line-height: 30px;
+  padding: 10px;
+  border-bottom: 3px solid red;
+  animation: none;
+}
+
 #rating-card {
   background-color: hsl(213, 19%, 18%);
   margin: 4%;
@@ -137,3 +150,13 @@ body {
 }
 
 .attribution a {color: hsl(228, 45%, 44%);}
+
+@keyframes appear {
+  from {top: -50px;}
+  to {top: 0px;}
+}
+
+@keyframes goback {
+  from {top: 0px;}
+  to {top: -50px;}
+}
