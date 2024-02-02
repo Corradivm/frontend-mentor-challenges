@@ -69,6 +69,7 @@ body {
   font-weight: bold;
   font-size: 15px;
   user-select: none;
+  transition: 0.25s;
 }
 
 #rating-card input[type="button"]:hover:not(.active) {
@@ -82,11 +83,6 @@ body {
   color: white;
 }
 
-#selected {
-  color: white;
-  background-color: hsl(25, 97%, 53%);
-}
-
 #rating-card input[type="submit"] {
   width: 100%;
   border-radius: 22px;
@@ -97,12 +93,14 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   padding: 10px;
+  transition: 0.2s;
 }
 
 #rating-card input[type="submit"]:hover {
   color: hsl(25, 97%, 53%);
   background-color: white;
   cursor: pointer;
+
 }
 
 #thank-you-card {
