@@ -29,15 +29,15 @@ function submit() {
 function animation() {
   const card = document.getElementById('warning-card');
 
-  card.style.animation = "appear 0.5s ease-out";
+  card.style.animation = "appear 0.3s ease-out";
   card.style.top = "0px";
 
-  setTimeout(goback, 5000)
+  setTimeout(goback, 4000)
 }
 
 function goback() {
   const card = document.getElementById('warning-card');
 
-  card.style.animation = "goback 1s ease-in";
+  card.style.animation = "goback 0.6s ease-in";
   card.style.top = "-50px";
 }
