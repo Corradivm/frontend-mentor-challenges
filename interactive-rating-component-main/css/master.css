@@ -1,9 +1,9 @@
 * {box-sizing: border-box;}
 
-html {height: 100vh;}
+html {min-height: 100vh;}
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,7 @@ body {
   border-radius: 130px;
   background-color: hsl(213, 19%, 24%);
   padding: 15px;
+  user-select: none;
 }
 
 #rating-card h1 {
@@ -53,9 +54,10 @@ body {
   line-height: 0px;
   font-weight: bold;
   font-size: 15px;
+  user-select: none;
 }
 
-#rating-card input[type="button"]:hover:not(#selected, .active) {
+#rating-card input[type="button"]:hover:not(.active) {
   background-color: hsl(217, 12%, 63%) ;
   color: white;
   cursor: pointer;
