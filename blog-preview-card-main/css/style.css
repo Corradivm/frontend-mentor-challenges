@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
 }
 
-html {min-height: 100vh;}
+html,body {min-height: 100svh;}
 
 body {
   background-color: hsl(47, 88%, 63%);
   margin: 0;
   box-sizing: border-box; 
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,5 +76,5 @@ body {
   text-align: center;
   margin-top: 5%;
   position: fixed;
-  bottom: 0;
+  bottom:10px;
 }

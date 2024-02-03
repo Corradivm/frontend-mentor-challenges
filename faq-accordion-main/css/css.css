@@ -4,7 +4,7 @@
 }
 
 body, html {
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 body {
@@ -94,7 +94,7 @@ details {
   font-size: 11px;
   text-align: center;
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
 }
 
 .attribution a {color: hsl(228, 45%, 44%);}

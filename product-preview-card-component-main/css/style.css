@@ -5,7 +5,7 @@
 }
 
 body, html {
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 body {
@@ -102,21 +102,11 @@ body {
   vertical-align: middle;
 }
 
-@font-face {
-  font-family: Montserrat;
-  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Fraunces;
-  src: url(../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
-}
-
 .attribution {  
   font-size: 11px; 
   text-align: center;
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
 }
 
 .attribution a {color: hsl(228, 45%, 44%);}
@@ -125,6 +115,7 @@ body {
   .card {
     display: flex;
     max-width: 600px;
+    margin: 0% 4%;
   }
 
   .card picture {
@@ -140,4 +131,14 @@ body {
     width: 50%;
     padding: 4%;
   }
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
