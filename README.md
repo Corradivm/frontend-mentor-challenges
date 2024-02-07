@@ -11,4 +11,6 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 
 - [FAQ Accordion](https://corradivm.github.io/frontend-mentor-challenges/faq-accordion)
 
-- [Blogp Preview Card](https://corradivm.github.io/frontend-mentor-challenges/blog-preview-card)
+- [Blog Preview Card](https://corradivm.github.io/frontend-mentor-challenges/blog-preview-card)
+
+- [Social Links Profile](https://corradivm.github.io/frotend-mentor-challenges/social-links-profile)
