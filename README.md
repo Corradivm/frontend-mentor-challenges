@@ -13,4 +13,4 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 
 - [Blog Preview Card](https://corradivm.github.io/frontend-mentor-challenges/blog-preview-card)
 
-- [Social Links Profile](https://corradivm.github.io/frotend-mentor-challenges/social-links-profile)
+- [Social Links Profile](https://corradivm.github.io/frontend-mentor-challenges/social-links-profile)

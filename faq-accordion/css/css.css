@@ -71,15 +71,6 @@ body {
   cursor: pointer;
 }
 
-.faq-card summary:focus {
-  color: hsl(292, 100%, 50%);
-  outline: hsl(292, 100%, 75%);
-  outline-width: 2px;
-  outline-offset: 5px;
-  outline-style: solid;
-  border-radius: 5px;
-}
-
 .faq-card p {
   color: hsl(292, 16%, 49%);
   font-weight: 400;

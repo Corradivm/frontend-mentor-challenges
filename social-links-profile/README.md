@@ -4,9 +4,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Screenshot
 
-![](.design/mysolution.png)
+![](design/mysolution.png)
 
-[Live site here](https://corradivm.github.io/frontend-mentor-challenges/social-link-profile)
+[Live site here](https://corradivm.github.io/frontend-mentor-challenges/social-links-profile)
 
 ## Built with
 
