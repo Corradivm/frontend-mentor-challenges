@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <style>
+     .card {
+       height: 100%;
+       max-height: 550px;
+     }
+    .attribution {
+      color: white;
+      font-size: 11px;
+      text-align: center;
+      position: fixed;
+      bottom: 10px;
+    }
+    .attribution a { color: violet; }
+  </style>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-darkblue-950 font-outfit">
+  <section class="card w-80 m-6 p-5 bg-darkblue-900 rounded-xl">
+    <div class="h-full rounded-md relative">
+      <img src="images/image-equilibrium.jpg" alt="" class="h-full rounded-md">
+      <div class="absolute h-full w-full rounded-md cursor-pointer inset-x-0 inset-y-0 flex items-center justify-center opacity-0 hover:bg-cyan-450 hover:opacity-100 transition duration-400">
+        <img src="./images/icon-view.svg" alt="">
+      </div>
+    </div>
+    
+    <h3 class="text-white text-xl font-semibold my-4 hover:cursor-pointer hover:text-cyan-400 trasition duration-200">Equilibrium #3429</h3>
+    <p class="text-softblue-400 text-lg">Our Equilibrium collection promotes balance and calm.</p>
+    
+    <div class="inline flex justify-between text-sm my-4">
+      <div class="text-cyan-400 font-medium flex items-center">
+        <img src="./images/icon-ethereum.svg" alt="Ethereum icon" class="inline mr-2">
+        0.041 ETH
+      </div>
+      
+      <div class="text-softblue-400 flex items-center">
+        <img src="./images/icon-clock.svg" alt="Ethereum icon" class="inline mr-2">
+        3 days left
+      </div>
+    </div>
+    
+    <hr class="border-softblue-600">
+    
+    <div class="h-9 mt-4 flex items-center text-softblue-400 trasition duration-200">
+      <img src="./images/image-avatar.png" alt="" class="h-9 inline mr-2 border border-white rounded-full">
+      Creation of <a href="#profile" class="text-white ml-2 hover:text-cyan-400">Jules Wyvern</a>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/Corradivm">Corradi</a>.
+  </div>
+</body>
+</html>
+
