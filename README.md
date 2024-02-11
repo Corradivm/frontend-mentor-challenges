@@ -2,6 +2,7 @@
 Este é um repositório com soluções de desafios do [Frontend Mentor](https://www.frontendmentor.io/)
 
 ## Lista de desafios concluídos
+
 ### Newbie
 - [QR Code Component](https://corradivm.github.io/frontend-mentor-challenges/qr-code-component)
 
@@ -18,3 +19,7 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 - [NFT Preview Card](https://corradivm.github.io/frontend-mentor-challenges/nft-preview-card-component)
 
 - [Recipe Page](https://corradivm.github.io/frontend-mentor-challenges/recipe-page)
+
+- [3 Column Preview Card Component](https://corradivm.github.io/frontend-mentor-challenges/3-column-preview-card-component)
+
+
