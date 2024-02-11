@@ -794,8 +794,8 @@ video {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-@media (min-width: 1024px) {
-  .lg\:w-1\/3 {
+@media (min-width: 768px) {
+  .md\:w-1\/3 {
     width: 33.333333%;
   }
 }
@@ -816,7 +816,7 @@ main {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   section {
     height: 445px;
   }
