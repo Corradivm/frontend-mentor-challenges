@@ -16,3 +16,5 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 - [Social Links Profile](https://corradivm.github.io/frontend-mentor-challenges/social-links-profile)
 
 - [NFT Preview Card](https://corradivm.github.io/frontend-mentor-challenges/nft-preview-card-component)
+
+- [Recipe Page](https://corradivm.github.io/frontend-mentor-challenges/recipe-page)
