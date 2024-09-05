@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+  background-color: hsl(0, 0%, 81%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+section {
+  margin-top: 2em;
+  padding: 2em;
+  border-radius: 0.5em;
+  background-color: hsl(210, 46%, 95%);
+}
+
+#section-daniel {
+  background-color: hsl(263, 55%, 52%);
+}
+
+#section-jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+
+#section-patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+
+#section-daniel,
+#section-jonathan,
+#section-patrick {
+  color: hsl(0, 0%, 100%);
+}
+
+section > p {
+  margin-top: 1em;
+}
+
+section p:first-of-type {
+  font-weight: 600;
+}
+
+section p:last-of-type {
+  font-weight: 500;
+}
+
+section .profile img {
+  display: inline-block;
+  margin-right: 1em;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+section .profile .profile-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section .profile .profile-name p {
+  vertical-align:baseline;
+}
+
+.attribution {
+  transform: translateY(1.5em);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1024px) {
+  html, body {
+    min-height: 100svh;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto 2em;
+    gap: 2em;
+    height: 100%;
+  }
+
+  #section-daniel {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  #section-jonathan {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  #section-jaenette {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  #section-patrick {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+
+  #section-kira {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+  }
+
+  .attribution {
+    position: fixed;
+    bottom: 1em;
+  }
+}

@@ -4,6 +4,7 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 ## Lista de desafios concluídos
 
 ### Newbie
+
 - [QR Code Component](https://corradivm.github.io/frontend-mentor-challenges/qr-code-component)
 
 - [Product Preview Card Component](https://corradivm.github.io/frontend-mentor-challenges/product-preview-card-component)
@@ -22,4 +23,6 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 
 - [3 Column Preview Card Component](https://corradivm.github.io/frontend-mentor-challenges/3-column-preview-card-component)
 
+### Junior
 
+- [Testimonials Grid Section](https://corradivm.github.io/frontend-mentor-challenges/3-column-preview-card-component) (In progress...)
