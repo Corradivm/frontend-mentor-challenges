@@ -25,4 +25,4 @@ Este é um repositório com soluções de desafios do [Frontend Mentor](https://
 
 ### Junior
 
-- [Testimonials Grid Section](https://corradivm.github.io/frontend-mentor-challenges/3-column-preview-card-component) (In progress...)
+- [Testimonials Grid Section](https://corradivm.github.io/frontend-mentor-challenges/testimonials-grid-section) (In progress...)

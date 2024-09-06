@@ -6,15 +6,15 @@
 
 body {
   padding: 2em;
-  background-color: hsl(0, 0%, 81%);
+  background-color: hsl(210, 46%, 95%);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 section {
   margin-top: 2em;
   padding: 2em;
-  border-radius: 0.5em;
-  background-color: hsl(210, 46%, 95%);
+  border-radius: 0.49em;
+  background-color: hsl(0, 0%, 100%);
 }
 
 #section-daniel {
@@ -45,6 +45,7 @@ section p:first-of-type {
 
 section p:last-of-type {
   font-weight: 500;
+  font-size: 0.8125em;
 }
 
 section .profile img {
@@ -52,11 +53,13 @@ section .profile img {
   margin-right: 1em;
   border-radius: 100%;
   vertical-align: middle;
+  height: 2em;
 }
 
 section .profile .profile-name {
   display: inline-block;
   vertical-align: middle;
+  font-size: 0.8125em;
 }
 
 section .profile .profile-name p {
@@ -80,15 +83,22 @@ section .profile .profile-name p {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: 0;
+    margin: 0;
   }
 
   main {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto 2em;
-    gap: 2em;
-    height: 100%;
+    grid-template-columns: 16em 16em auto 16em;
+    grid-template-rows: 17.5em auto;
+    column-gap: 1.9em;
+    row-gap: 1.55em;
+    max-width: 69.5em;
+    height: 35.8em;
+  }
+
+  section {
+    margin: 0;
   }
 
   #section-daniel {
